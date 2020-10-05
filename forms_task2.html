@@ -1,0 +1,38 @@
+<html>
+    <form method="POST" action="action_page.php" style="border-left: 5px solid aqua" style="border-right: grey;" style="border-top: grey;" style="border-bottom:: grey;" >
+          <h1>Create an Account</h1>
+          
+      
+          <label for="email">Email</label><br>
+          <input type="text" placeholder="Enter Email" name="email" required><br>
+      
+          <label for="psw">Password</label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+          <label for="age">Age:</label><br>
+          <select>
+
+            <option value="Select age">select age</option>
+            <option value="18 - 20">18-20</option>
+            <option value="21 - 30">21-30</option>
+            <ooption value="31 - 40">31-40</ooption>
+            <option value="41 - 50">41-50</option>
+            <option value="51 - 60">51-60</option>
+            <option value="61 - 70">61-70</option>
+            </select><br>
+
+            <label for="Tell us a little about yourself:">Tell us a little about yourself
+            </label><br>
+
+            <textarea row=500px cols=40px style="width: 350px; height: 240px;"></textarea><br>
+            <input type="checkbox" value="I agree to the terms of service" name="T&C" required id="terms of service">
+            <label for="T&C">I agree to the <a href="https://en.wikipedia.org/wiki/Terms_of_service">terms of service
+            </a></label><br>
+            <label for="Sub" value="Submit" name="Submit"></label>
+                <input type="submit" value="Sign up" name="Sub" required>
+            <input type="hidden" name="Secret to the form" value="12345">
+                                 
+         
+    </form> 
+
+</html>
